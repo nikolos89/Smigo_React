@@ -1,0 +1,27 @@
+.menu {
+  color: #000;
+}
+.menu_element {
+  color: #000;
+  padding: 22px 0 22px 22px;
+}
+
+.navbar_element {
+  color: #000;
+}
+
+.menu_element:hover {
+  color: #0070ff;
+}
+
+@media (max-width: 1000px) {
+  .menu_element {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .menu {
+    display: none;
+  }
+}
